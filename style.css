@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.skill {
+  background: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background: #007bff;
+  color: white;
+}
+
+.project-card {
+  background-color: #ffffff;
+  color:#000000 ;
+  padding: 15px;
+  margin: 15px auto;
+transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project p{
+    margin: 6px 0;
+}
+body.dark-mode.project{
+  background-color: #1f2937;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+}
+#contact input,
+#contact textarea {
+  width: 60%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+a{
+    padding: 3px 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+a:hover{
+    background-color: #444;
+}
+/* Default Light Mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header, footer, .project, .skills {
+    transition: all 0.3s ease;
+}
+
+body.dark-mode header, 
+body.dark-mode footer {
+    background-color: #1e1e1e;
+}
+.project-card{
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+body.dark-mode.skill{
+  background-color: #e5e7eb;
+  color: #111827;
+  font-weight: 600;
+}
+.project-note{
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
